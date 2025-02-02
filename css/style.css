@@ -1,0 +1,117 @@
+body{
+    background-color: #FCE4EC;
+    color: #424242;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForTasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4{
+    text-align: center;
+}
+
+.tasks{
+    margin-top: 50px;
+    border: 2px solid #424242;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    width: 700px;
+    height: 700px;
+    padding: 7px;
+    overflow-y: auto;
+}
+
+
+.taskItem{
+    display: flex;
+    justify-content: space-between;
+    overflow-wrap: anywhere;
+    margin-top: 10px;
+    max-width: 650px;
+    position: relative;
+    padding-right: 60px;
+    border-bottom: #BBDEFB 3px solid;
+    padding-bottom: 15px;
+}
+
+#taskValue{
+    height: 30px;
+    width: 700px;
+    border: 3px solid #BBDEFB;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.addTaskButton{
+    background-color: #BBDEFB;
+    color: #0D47A1;
+    height: 36px;
+    width: 36px;
+    border: 1px solid #BBDEFB;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.addTaskButton:hover{
+    background-color: #0D47A1;
+    color: #BBDEFB;
+}
+
+
+.doneBtn{
+    border: 1px solid #424242; 
+    border-radius: 50%;
+    background-color: #C8E6C9;
+    cursor: pointer;
+}
+
+.doneBtn:hover{
+    background-color: #56f25c;
+}
+
+.deleteBtn{
+    border: 1px solid #424242; 
+    border-radius: 50%;
+    background-color: #f87979;
+    cursor: pointer;
+} 
+
+.deleteBtn:hover{
+    background-color: #fb3232;
+} 
+
+.taskAction{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+}
+
+.deleteBtnDone{
+    border: 1px solid #424242; 
+    border-radius: 50%;
+    background-color: #f87979;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.deleteBtnDone:hover{
+    background-color: #fb3232;
+}
+
+ul{
+    padding: 0;
+}
